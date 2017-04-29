@@ -1,0 +1,35 @@
+.primary_background{
+  height: 525px;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  margin-top: none;
+  background-image: url("https://images.pexels.com/photos/5363/apple-desk-laptop-macbook-pro.jpg?h=350&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav{
+  border: 1px solid black;
+  width: 60rem;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 5px 30px;
+}
+
+.container{
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.photo{
+  display: inline;
+  width: 25%;
+}
